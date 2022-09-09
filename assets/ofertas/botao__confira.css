@@ -1,0 +1,34 @@
+.botao__confira{
+    display: none;
+}
+
+@media screen and (min-width:980px){
+    .botao__sessao{
+        background-color: #d4d4;
+        padding: 0 0 2rem;
+    }
+
+    .botao__confira{
+        width: 40%;
+        font-weight: 700;
+        font-family: 'oswald',cursive;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: .5rem;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin: 0 auto;
+        background-color: rebeccapurple;
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase;
+        
+    }
+    
+    .botao__confira:hover{
+        background-color: darkred;
+        color: white;
+
+    }
+}

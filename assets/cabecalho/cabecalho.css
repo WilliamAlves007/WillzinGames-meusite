@@ -1,0 +1,19 @@
+
+
+.cabecalho{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+@media screen and (min-width:980px){
+    .cabecalho{
+        justify-content: space-between;
+        padding: .5rem 2rem;
+        position: fixed;
+        z-index: 99;
+    }
+    
+    
+}

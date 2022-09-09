@@ -1,0 +1,14 @@
+.banner__principal--img{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    opacity: .88;
+    height: 50vh;
+    
+}
+
+@media screen and (min-width:980px) {
+    .banner__principal--img{
+        height: 100vh;
+    }
+}

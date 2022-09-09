@@ -1,0 +1,12 @@
+.logo__principal{
+    display: flex;
+    margin: 0 .5rem;
+    width: 9%;
+   
+}
+
+@media screen and (min-width:980px){
+    .logo__principal{
+        width: 5%;
+    }
+}

@@ -1,0 +1,37 @@
+.botao{
+    background-color: transparent;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-family: 'oswald',cursive;
+    font-size: 30px;
+    font-weight: 700;
+    left: 2rem;
+    right: 2rem;
+    position:absolute;
+    padding: 5px;
+    top: 40%;
+    text-shadow: 2px 2px 1px black;
+    text-transform: uppercase;
+    
+}
+
+
+
+@media screen and (min-width:980px) {
+    .botao{
+        font-family: cursive, 'oswald';
+        left: 10rem;
+        top: 70%;
+        width: 70%;
+    }
+
+    .botao:hover{
+    background: rgb(16, 80, 209);
+    color: white;
+    text-shadow: 4px 2px 30px rgb(183, 6, 6);
+    border: 2px solid  darkblue;
+
+}
+}
