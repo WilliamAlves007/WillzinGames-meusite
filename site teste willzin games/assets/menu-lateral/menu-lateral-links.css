@@ -1,0 +1,31 @@
+.menu__lateral-links{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:cursive, 'oswald';
+    padding: 1rem 1rem;
+    color: black;
+}
+
+.menu__lateral-inicio::before{
+    content:"\0024" ;
+    padding-right: 1rem;
+}
+
+.menu__lateral-vendidos::before{
+    content: "\210D";
+    padding-right: 1rem;    
+}
+
+
+.menu__lateral-destaques::before{
+    content: "\2736";
+    padding-right: 1rem;
+}
+
+
+.menu__lateral-ofertas::before{
+    content: "\00A9";
+    padding-right: 1rem;
+}
+

@@ -1,0 +1,39 @@
+.titulo__carrosel{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    background-position: 10rem;
+    text-shadow: 2PX 2PX 5px gray;
+    padding: 1rem auto;
+
+}
+
+.titulo__carroselDESKTOP{
+    display: none;
+}
+
+@media screen and (min-width:980px){
+    .titulo__carrosel{
+        background-color: bisque;
+        padding: 1rem;
+        font-size: 25px;
+        font-weight: 400;
+        text-shadow: 2px 2px 5px black;
+        display: none;
+    }
+    .titulo__carroselDESKTOP{
+        display: block;
+        padding: 1rem;
+        font-size: 45px;
+        font-weight: 700;
+        text-shadow: 2px 4px black;
+        text-align: center;
+        color: white;
+        font-family: cursive;
+        text-transform: uppercase;
+    }
+}

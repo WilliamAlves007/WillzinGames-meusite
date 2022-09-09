@@ -1,0 +1,36 @@
+.texto__cabecalho{
+    font-size: 35px;
+    font-family: heavitas;
+    align-items: center;
+    font-weight: 700;
+    text-shadow: 3px 3px black;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+.titulo__banner{
+    display: none;
+}
+
+@media screen and (min-width:980px){
+    .texto__cabecalho{
+        font-size: 50px;
+        align-items: center;
+        
+    }
+    .titulo__banner{
+        margin: 0 .5rem;
+        display: block;
+    }
+}

@@ -1,0 +1,24 @@
+.container__carrosel{
+    width: 70%;
+    padding: 2rem 0;
+}   
+
+.background{
+    background-image: url(/assets/img/sonic2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:980px){
+    .container__carrosel{
+        display: flex;
+        width: 25%;
+        height: 20%;
+        padding-bottom: 2rem;
+        
+        
+    }
+    .imagem__carrosel{
+        height: 70vh;
+    }
+}

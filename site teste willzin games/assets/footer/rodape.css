@@ -1,0 +1,9 @@
+.rodape{
+    background-image: url(/assets/img/footerimg.jpg);
+    background-position: 0 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+}

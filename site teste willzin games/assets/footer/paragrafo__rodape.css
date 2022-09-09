@@ -1,0 +1,14 @@
+.paragrafo__rodape{
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: end;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (min-width:980px) {
+    .paragrafo__rodape{
+        font-size: 20px;
+    }
+}

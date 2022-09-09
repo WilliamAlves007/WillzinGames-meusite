@@ -1,0 +1,17 @@
+.ofertas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D4D4;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width:980px) {
+    .ofertas{
+        display: grid;
+        grid-template-columns: 33%  33% auto;
+
+        
+    }
+   
+}
